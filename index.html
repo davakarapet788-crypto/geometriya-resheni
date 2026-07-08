@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ГеоМетрия Пространства — Строительно-ландшафтная компания | Укладка плитки, ремонт, благоустройство</title>
+  <meta name="description" content="Профессиональная укладка кафеля и тротуарной плитки в Краснознаменске и по всему югу Москвы и МО. Ремонт квартир под ключ. Гарантия 5 лет. Скидка 15%.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="/" class="header__logo">
+          <img src="img/logo.jpg" alt="ГеоМетрия Пространства" class="header__logo-img">
+          <div class="header__logo-text">Гео<span>Метрия</span><br>Пространства</div>
+        </a>
+        <div class="header__geo">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          г. Краснознаменск &bull; Работаем по всему югу Москвы и МО
+        </div>
+        <div class="header__contacts" id="headerContacts">
+          <span class="header__question">Есть вопросы? Напишите Давиду →</span>
+          <div class="header__messengers">
+            <a href="https://wa.me/79528568066" target="_blank" class="header__msg-btn" title="WhatsApp" id="header-whatsapp">
+              <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://t.me/+79528568066" target="_blank" class="header__msg-btn" title="Telegram" id="header-telegram">
+              <svg viewBox="0 0 24 24" fill="#229ED9"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+          </div>
+          <a href="tel:+79528568066" class="header__phone" id="header-phone">+7 (952) 856-80-66</a>
+        </div>
+        <button class="header__burger" id="headerBurger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero particle-bg" id="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__badge"><span class="badge-dot"></span> Официальный подрядчик для загородных домов и квартир</div>
+          <h1>Сдайте нам коробку дома или квартиру и&nbsp;получите готовый ремонт внутри и&nbsp;благоустроенный двор снаружи за&nbsp;90&nbsp;дней со&nbsp;скидкой&nbsp;15%</h1>
+          <p class="hero__subtitle">Профессиональная укладка кафеля и тротуарной плитки в&nbsp;Краснознаменске и по&nbsp;всему югу МО. Работаем узкопрофильными бригадами по&nbsp;договору с&nbsp;гарантией 5&nbsp;лет.</p>
+          <div class="hero__cta-group">
+            <a href="#quiz" class="btn-primary btn-primary--pulse" id="hero-cta">
+              Рассчитать стоимость и зафиксировать скидку 15%
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <p class="hero__cta-hint">Пройдите тест за 2 минуты и получите гайд «7 критических ошибок при выборе тротуарной плитки»</p>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="img/hero.jpg" alt="Премиальная укладка плитки — интерьер и экстерьер">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         QUIZ
+         ============================================================ -->
+    <section class="quiz" id="quiz">
+      <div class="quiz__bg"><img src="img/quiz_bg.jpg" alt=""></div>
+      <div class="container">
+        <div class="quiz__header reveal">
+          <h2>Узнайте предварительную стоимость работ и&nbsp;материалов за&nbsp;2&nbsp;минуты</h2>
+          <p class="section-subtitle">Ответьте на 4 простых вопроса, чтобы Давид Карапетян подготовил для вас 3 варианта сметы под ваш бюджет</p>
+        </div>
+        <div class="quiz__widget reveal">
+          <div class="quiz__progress"><div class="quiz__progress-bar"></div></div>
+
+          <!-- Step 1 -->
+          <div class="quiz__step active" data-step="1">
+            <div class="quiz__step-number">Шаг 1 из 4</div>
+            <div class="quiz__question">Что необходимо сделать?</div>
+            <div class="quiz__options">
+              <div class="quiz__option" id="quiz-opt-1-1">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <span>Ремонт квартиры под ключ</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-1-2">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="22" height="4" rx="1"/><line x1="4" y1="14" x2="4" y2="22"/><line x1="8" y1="14" x2="8" y2="22"/><line x1="12" y1="14" x2="12" y2="22"/><line x1="16" y1="14" x2="16" y2="22"/><line x1="20" y1="14" x2="20" y2="22"/></svg>
+                </div>
+                <span>Укладка тротуарной плитки и благоустройство</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-1-3">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M1 22h22"/><path d="M16 22v-4a1 1 0 0 0-1-1h-2"/><circle cx="18" cy="18" r="1"/></svg>
+                </div>
+                <span>Все вместе: дом + участок</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-1-4">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                </div>
+                <span>Отдельные плиточные работы</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="quiz__step" data-step="2">
+            <div class="quiz__step-number">Шаг 2 из 4</div>
+            <div class="quiz__question">Какой примерный объём работ?</div>
+            <div class="quiz__options">
+              <div class="quiz__option" id="quiz-opt-2-1">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                </div>
+                <span>До 50 м²</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-2-2">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+                </div>
+                <span>50–100 м²</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-2-3">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="22" x2="22" y2="22"/><rect x="6" y="10" width="4" height="12"/><rect x="14" y="4" width="4" height="18"/></svg>
+                </div>
+                <span>100–300 м²</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-2-4">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="6" x2="15" y2="6"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="15" y2="14"/><line x1="9" y1="18" x2="15" y2="18"/></svg>
+                </div>
+                <span>Более 300 м²</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="quiz__step" data-step="3">
+            <div class="quiz__step-number">Шаг 3 из 4</div>
+            <div class="quiz__question">Когда планируете начать работы?</div>
+            <div class="quiz__options">
+              <div class="quiz__option" id="quiz-opt-3-1">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <span>В ближайшие дни</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-3-2">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                </div>
+                <span>В течение месяца</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-3-3">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <span>В течение 2–3 месяцев</span>
+              </div>
+              <div class="quiz__option" id="quiz-opt-3-4">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </div>
+                <span>Пока просто узнаю цены</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4 — Final -->
+          <div class="quiz__step" data-step="4">
+            <div class="quiz__final">
+              <div class="quiz__step-number">Шаг 4 из 4</div>
+              <div class="quiz__final-title">Куда прислать расчёт сметы и&nbsp;ваш&nbsp;бонус?</div>
+              <div class="quiz__messenger-select">
+                <button type="button" class="quiz__messenger-btn selected" data-messenger="whatsapp" id="quiz-msg-wa">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  WhatsApp
+                </button>
+                <button type="button" class="quiz__messenger-btn" data-messenger="telegram" id="quiz-msg-tg">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="#229ED9"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                  Telegram
+                </button>
+              </div>
+              <input type="tel" class="quiz__phone-input" placeholder="+7 (___) ___-__-__" data-phone-mask id="quiz-phone">
+              <button type="button" class="btn-primary btn-green quiz__submit" id="quiz-submit">Получить 3 варианта сметы в мессенджер</button>
+            </div>
+          </div>
+
+          <div class="quiz__nav">
+            <button type="button" class="quiz__nav-back" id="quiz-back">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+              Назад
+            </button>
+            <button type="button" class="btn-primary quiz__nav-next" id="quiz-next">
+              Далее
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CALCULATOR
+         ============================================================ -->
+    <section class="calculator" id="calculator">
+      <div class="container">
+        <div class="calculator__header reveal">
+          <h2>Калькулятор стоимости работ</h2>
+          <p class="section-subtitle">Выберите тип работ, укажите площадь и уровень материалов — получите ориентировочную стоимость мгновенно</p>
+        </div>
+
+        <div class="calculator__widget reveal-scale">
+          <!-- 1. Work type -->
+          <div class="calc__section">
+            <div class="calc__label"><span class="calc__label-num">1</span> Выберите тип работ (можно несколько)</div>
+            <div class="calc__types stagger-children">
+              <div class="calc__type" data-type="paving" id="calc-type-paving">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="22" height="4" rx="1"/><line x1="4" y1="14" x2="4" y2="22"/><line x1="8" y1="14" x2="8" y2="22"/><line x1="12" y1="14" x2="12" y2="22"/><line x1="16" y1="14" x2="16" y2="22"/><line x1="20" y1="14" x2="20" y2="22"/></svg>
+                </div>
+                <div class="calc__type-name">Тротуарная плитка</div>
+                <div class="calc__type-price">от 900 ₽/м²</div>
+              </div>
+              <div class="calc__type" data-type="ceramic" id="calc-type-ceramic">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                </div>
+                <div class="calc__type-name">Укладка кафеля</div>
+                <div class="calc__type-price">от 1 100 ₽/м²</div>
+              </div>
+              <div class="calc__type" data-type="blindarea" id="calc-type-blindarea">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><line x1="1" y1="22" x2="23" y2="22"/></svg>
+                </div>
+                <div class="calc__type-name">Отмостка</div>
+                <div class="calc__type-price">от 1 600 ₽/м²</div>
+              </div>
+              <div class="calc__type" data-type="drainage" id="calc-type-drainage">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M12 22v-6"/><path d="M6 8l-2 2 2 2"/><path d="M18 12l2 2-2 2"/><circle cx="12" cy="12" r="4"/></svg>
+                </div>
+                <div class="calc__type-name">Дренаж и ливнёвка</div>
+                <div class="calc__type-price">от 1 800 ₽/п.м</div>
+              </div>
+              <div class="calc__type" data-type="renovation" id="calc-type-renovation">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                </div>
+                <div class="calc__type-name">Ремонт под ключ</div>
+                <div class="calc__type-price">от 4 000 ₽/м²</div>
+              </div>
+              <div class="calc__type" data-type="parking" id="calc-type-parking">
+                <div class="icon-box icon-box--orange">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                </div>
+                <div class="calc__type-name">Парковочная зона</div>
+                <div class="calc__type-price">от 1 200 ₽/м²</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Area -->
+          <div class="calc__section">
+            <div class="calc__label"><span class="calc__label-num">2</span> Укажите площадь</div>
+            <div class="calc__area-row">
+              <input type="number" class="calc__area-input" value="50" min="5" max="1000" id="calc-area-input">
+              <span class="calc__area-unit">м²</span>
+              <input type="range" class="calc__area-slider" min="5" max="1000" value="50" id="calc-area-slider">
+            </div>
+          </div>
+
+          <!-- 3. Material Level -->
+          <div class="calc__section">
+            <div class="calc__label"><span class="calc__label-num">3</span> Уровень материалов</div>
+            <div class="calc__levels">
+              <div class="calc__level" data-level="0" id="calc-level-eco">
+                <div class="calc__level-name">Эконом</div>
+                <div class="calc__level-desc">Проверенные бюджетные материалы</div>
+              </div>
+              <div class="calc__level selected" data-level="1" id="calc-level-std">
+                <div class="calc__level-name">Стандарт</div>
+                <div class="calc__level-desc">Оптимальное соотношение цены и качества</div>
+              </div>
+              <div class="calc__level" data-level="2" id="calc-level-prem">
+                <div class="calc__level-name">Премиум</div>
+                <div class="calc__level-desc">Ведущие бренды: Braer, Steingot</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. With/Without Materials -->
+          <div class="calc__section">
+            <div class="calc__label"><span class="calc__label-num">4</span> Включить материалы?</div>
+            <div class="calc__toggle-row">
+              <button class="calc__toggle-btn selected" data-toggle="with" id="calc-toggle-with">С материалами</button>
+              <button class="calc__toggle-btn" data-toggle="without" id="calc-toggle-without">Только работа</button>
+            </div>
+          </div>
+
+          <!-- Result -->
+          <div class="calc__result">
+            <div class="calc__result-grid">
+              <div class="calc__result-item">
+                <div class="calc__result-label">Работа</div>
+                <div class="calc__result-value calc__result-work">0 ₽</div>
+              </div>
+              <div class="calc__result-item">
+                <div class="calc__result-label">Материалы</div>
+                <div class="calc__result-value calc__result-material">0 ₽</div>
+              </div>
+              <div class="calc__result-item">
+                <div class="calc__result-label">Итого</div>
+                <div class="calc__result-value calc__result-value--total calc__result-total">0 ₽</div>
+                <div class="calc__result-discount"></div>
+              </div>
+            </div>
+            <div class="calc__result-cta">
+              <a href="#footer" class="btn-primary" id="calc-cta">
+                Зафиксировать цену и получить точную смету
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+            <div class="calc__result-note">* Указана ориентировочная стоимость. Точную смету подготовит инженер после замера.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES (TABS)
+         ============================================================ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__header reveal">
+          <h2>Выполняем полный комплекс работ внутри помещений и&nbsp;на&nbsp;участке</h2>
+        </div>
+        <div class="services__tabs reveal">
+          <button class="services__tab active" data-tab="exterior" id="tab-exterior">Экстерьер и мощение</button>
+          <button class="services__tab" data-tab="interior" id="tab-interior">Интерьер и отделка</button>
+        </div>
+        <div class="services__content active" data-tab="exterior">
+          <div class="services__text reveal-left">
+            <h3>Экстерьер и мощение территории</h3>
+            <ul class="services__list">
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Укладка тротуарной плитки и брусчатки</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Устройство дренажных систем</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Монтаж ливневой канализации</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Заливка бетонных и щебёночных оснований</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Обустройство парковочных зон</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Монтаж отмостки вокруг дома</li>
+            </ul>
+            <div class="services__cta">
+              <a href="#showroom" class="btn-secondary" id="services-cta-exterior">Вызвать инженера на бесплатный замер с образцами</a>
+            </div>
+          </div>
+          <div class="services__image reveal-right">
+            <img src="img/exterior.jpg" alt="Укладка тротуарной плитки">
+          </div>
+        </div>
+        <div class="services__content" data-tab="interior">
+          <div class="services__text reveal-left">
+            <h3>Интерьер и отделка помещений</h3>
+            <ul class="services__list">
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Ремонт квартир под ключ</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Профессиональная укладка кафеля и керамогранита</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Запил внешних углов под 45° без сколов</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Ремонт санузлов премиум-класса</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Комплексные отделочные работы</li>
+              <li><span class="services__list-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Гидроизоляция и подготовка оснований</li>
+            </ul>
+            <div class="services__cta">
+              <a href="#showroom" class="btn-secondary" id="services-cta-interior">Вызвать инженера на бесплатный замер с образцами</a>
+            </div>
+          </div>
+          <div class="services__image reveal-right">
+            <img src="img/interior.jpg" alt="Укладка керамогранита в интерьере">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERTISE
+         ============================================================ -->
+    <section class="expertise" id="expertise">
+      <div class="expertise__bg"><img src="img/team_bg.jpg" alt=""></div>
+      <div class="container">
+        <div class="expertise__header reveal">
+          <h2>Почему жители юга Подмосковья доверяют нам свой ремонт и&nbsp;участки?</h2>
+        </div>
+        <div class="expertise__cards stagger-children">
+          <div class="expertise__card magnetic-card" id="expertise-card-1">
+            <div class="expertise__card-icon">
+              <div class="icon-box icon-box--dark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+              </div>
+            </div>
+            <h3>Никаких «мастеров на&nbsp;все&nbsp;руки»</h3>
+            <p>На вашем объекте работают строго узкопрофильные специалисты. Плиточник-кафельщик занимается только внутренним интерьером, а&nbsp;дорожные строители — укладкой брусчатки во&nbsp;дворе. Каждый делает то, в&nbsp;чём он лучший.</p>
+          </div>
+          <div class="expertise__card magnetic-card" id="expertise-card-2">
+            <div class="expertise__card-icon">
+              <div class="icon-box icon-box--dark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+            </div>
+            <h3>Защита от «поплывшей» плитки</h3>
+            <p>Строго соблюдаем технологии СНиП и&nbsp;ГОСТ. Делаем глубокую выемку грунта, укладываем плотный геотекстиль и&nbsp;проводим послойную вибротрамбовку основания. Гарантия на работы — 5&nbsp;лет.</p>
+          </div>
+          <div class="expertise__card magnetic-card" id="expertise-card-3">
+            <div class="expertise__card-icon">
+              <div class="icon-box icon-box--dark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#D9822B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1L15.09 8.26 23 9.27 17.5 14.14 18.82 22.02 12 18.27 5.18 22.02 6.5 14.14 1 9.27 8.91 8.26z"/></svg>
+              </div>
+            </div>
+            <h3>Железная финансовая дисциплина</h3>
+            <p>Составляем честную прозрачную смету. Стоимость фиксируется в&nbsp;договоре раз и&nbsp;навсегда. Если мы ошиблись при расчёте — покрываем расходы за&nbsp;свой счёт. Штраф за&nbsp;просрочку — 5&nbsp;000&nbsp;руб./день.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PORTFOLIO
+         ============================================================ -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio__header reveal"><h2>Примеры наших готовых объектов на&nbsp;юге&nbsp;Подмосковья</h2></div>
+        <div class="portfolio__slider reveal">
+          <div class="portfolio__track">
+            <div class="portfolio__slide">
+              <div class="portfolio__card">
+                <div class="portfolio__card-image"><img src="img/portfolio_parking.jpg" alt="Парковка и отмостка в загородном доме"></div>
+                <div class="portfolio__card-info">
+                  <div class="portfolio__card-title">Парковка и&nbsp;отмостка в&nbsp;загородном доме</div>
+                  <div class="portfolio__card-params">
+                    <div class="portfolio__param"><span class="portfolio__param-label">Срок</span><span class="portfolio__param-value">5 дней</span></div>
+                    <div class="portfolio__param"><span class="portfolio__param-label">Задача</span><span class="portfolio__param-value">Въездная зона под 2 тяжёлых внедорожника</span></div>
+                    <div class="portfolio__param"><span class="portfolio__param-label">Материал</span><span class="portfolio__param-value">Брусчатка Braer</span></div>
+                    <div class="portfolio__param"><span class="portfolio__param-label">Стоимость</span><span class="portfolio__param-value">Под ключ с материалом — по запросу</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__slide">
+              <div class="portfolio__card">
+                <div class="portfolio__card-image"><img src="img/portfolio_bathroom.jpg" alt="Санузел премиум-класса под ключ"></div>
+                <div class="portfolio__card-info">
+                  <div class="portfolio__card-title">Санузел премиум-класса под&nbsp;ключ</div>
+                  <div class="portfolio__card-params">
+                    <div class="portfolio__param"><span class="portfolio__param-label">Срок</span><span class="portfolio__param-value">12 дней</span></div>
+                    <div class="portfolio__param"><span class="portfolio__param-label">Задача</span><span class="portfolio__param-value">Идеальная стыковка керамогранита 120×60 с запилом под 45°</span></div>
+                    <div class="portfolio__param"><span class="portfolio__param-label">Материал</span><span class="portfolio__param-value">Крупноформатный керамогранит</span></div>
+                    <div class="portfolio__param"><span class="portfolio__param-label">Стоимость</span><span class="portfolio__param-value">Под ключ — по запросу</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__controls reveal">
+          <button class="portfolio__arrow portfolio__arrow--prev" aria-label="Предыдущий" id="portfolio-prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg></button>
+          <div class="portfolio__dots">
+            <button class="portfolio__dot active" aria-label="Слайд 1" id="portfolio-dot-1"></button>
+            <button class="portfolio__dot" aria-label="Слайд 2" id="portfolio-dot-2"></button>
+          </div>
+          <button class="portfolio__arrow portfolio__arrow--next" aria-label="Следующий" id="portfolio-next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        </div>
+        <div class="portfolio__cta reveal">
+          <a href="#footer" class="btn-primary" id="portfolio-cta">Хочу такой же результат. Обсудить проект с Давидом
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SHOWROOM
+         ============================================================ -->
+    <section class="showroom" id="showroom">
+      <div class="container">
+        <div class="showroom__inner">
+          <div class="showroom__text reveal-left">
+            <h2>Выбирайте плитку и&nbsp;кафель прямо у&nbsp;себя на&nbsp;объекте</h2>
+            <p class="showroom__desc">Вам больше не нужно тратить выходные на поездки по строительным рынкам и шоу-румам Москвы. Наш инженер бесплатно приедет к вам в удобное время, сделает точные замеры и привезёт с собой чемодан с живыми образцами: от трендовой интерьерной плитки до премиальной брусчатки ведущих заводов (Braer, Steingot).</p>
+            <form class="showroom__form" data-form id="showroom-form">
+              <input type="tel" class="showroom__input" placeholder="+7 (___) ___-__-__" data-phone-mask required id="showroom-phone">
+              <button type="submit" class="btn-primary" id="showroom-submit">Заказать бесплатный выезд с&nbsp;образцами</button>
+            </form>
+          </div>
+          <div class="showroom__image reveal-right">
+            <img src="img/showroom.jpg" alt="Мобильный шоу-рум — выезд с образцами плитки">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__text reveal-left">
+            <h2>Остались вопросы или уже есть смета от&nbsp;других строителей?</h2>
+            <p class="footer__desc">Свяжитесь напрямую с руководителем компании. Карапетян Давид лично проконсультирует вас, проверит чужую смету на предмет скрытых наценок и зафиксирует за вашим номером персональные условия.</p>
+            <div class="footer__contacts">
+              <p>Тел: <a href="tel:+79528568066">+7 (952) 856-80-66</a></p>
+              <p>г. Краснознаменск, работа по всему югу Москвы и МО</p>
+            </div>
+          </div>
+          <div class="footer__form reveal-right">
+            <div class="footer__form-title">Получить консультацию Давида</div>
+            <form data-form id="footer-form">
+              <input type="tel" class="footer__form-input" placeholder="+7 (___) ___-__-__" data-phone-mask required id="footer-phone">
+              <button type="submit" class="btn-primary" id="footer-submit">Получить консультацию Давида</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__copy">&copy; 2026 «ГеоМетрия Пространства». Строительно-ландшафтная компания.</div>
+          <div class="footer__privacy"><a href="privacy.html">Политика конфиденциальности</a></div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
